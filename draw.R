@@ -1,3 +1,4 @@
+library(texPreview)
 library(stringdist)
 library(readxl)
 library(DataEditR)
