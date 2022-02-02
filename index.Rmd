@@ -2,15 +2,40 @@
 title: "REDRESS - District sampling"
 author: "Lucas Sempe & Yan Ding"
 date: "31/01/2022"
-output:
-  bookdown::gitbook:
-      number_sections: false
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: null
+      scroll_highlight: true
+      before: null
+      after: null
+    toolbar:
+      position: fixed
+    edit : null
+    download: ["book.pdf", "PDF"]
+    search:
+      engine: lunr # or fuse
+      # options to control/tune search engine behavior (for
+      # fuse.js, refer to https://fusejs.io/api/options.html)
+      options: null
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: true
+      github: false
+      twitter: true
+      linkedin: false
+      weibo: false
+      instapaper: false
+      vk: false
+      whatsapp: false
+      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    info: true
 header-includes:
    - \usepackage{multirow}
 bibliography: references.bib
-editor_options: 
-  markdown: 
-    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
@@ -29,9 +54,13 @@ source("draw.R")
 
 ## Introduction
 
-The purpose of this document is set the guidelines and suggest a
-sampling strategy for the implementation and evaluation of the REDRESS
-project.
+For many people with severe stigmatising skin diseases, lack of access to health and social services results in significant physical and psycho-social consequences, complex treatment journeys, and catastrophic socio-economic impacts. Our research aims to reduce illness, stigma, social exclusion and poverty caused by severe stigmatising skin diseases (SSSDs) in Liberia. Improving fair access to services is an important cornerstone of universal health coverage (UHC) (the provision of key health services to everyone, regardless of socio-economic status, disability or gender, for example) and in attaining the Sustainable Development Goals. UHC requires action beyond single disease programmes and approaches to ensure that no one is left behind. Integrated health system approaches to managing skin diseases have been proposed as a key solution to these challenges.
+
+Liberia is one of the first countries in the world to develop a national integrated approach to managing SSSDs. This means managing diseases with signs on the skin (e.g. lymphatic filariasis, leprosy, Buruli ulcer, yaws and onchocerciasis), through a combined approach at the local level. However, there is limited evidence about patient knowledge, priorities and experiences and the equity and effectiveness of the current approach.
+
+REDRESS will develop new knowledge with regional and global relevance on affordable, timely, appropriate and improved treatment strategies that also reduce stigma and address other social issues for affected vulnerable populations. Our project has been co-developed between researchers, patients and programme implementers at the request of the Liberian NTD programme and directly responds to priority health needs, detailed in the country’s ‘Investment Plan for Building a Resilient Health System’.
+
+The purpose of this document is set the guidelines and suggest a sampling strategy for the implementation and evaluation of the REDRESS project.
 
 The study of the intervention and the evaluation will collect primary
 data exclusively in the three treatment counties: **Lofa** for ***Study
@@ -58,6 +87,8 @@ districts:
     to gain as much as statistical power as possible.
 
 ## Prevalence
+
+The severe stigmatising skin diseases that we are focused on in REDRESS are neglected tropical skin infections that can cause significant illness to an affected person through lack of treatment or prevention and often result in morbidity and disability. Several Neglected Tropical Diseases (NTDs) present in the skin including destructive skin ulcers and elephantiasis. These diseases contribute to the global burden of Severe Stigmatising Skin Diseases (SSSDs) and constitute one of the top 10 causes of disability worldwide. Stigma associated with these diseases can lead to social exclusion and psychological distress. 
 
 Considering there is are relatively low number of SSSDs, we review
 evidence of prevalence of the diseases in recent years. @simpson2019 did
