@@ -1,6 +1,0 @@
-tab:raw
-tab:incidence
-tab:lofa
-tab:margibi
-tab:grand
-fig:map
