@@ -1105,78 +1105,62 @@
             "volume": "10"
         },
         {
-            "URL": "https://www.who.int/publications-detail-redirect/who-wer9536",
+            "DOI": "10.1371/journal.pntd.0009604",
+            "URL": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0009604",
             "author": [
                 {
-                    "family": "WHO"
+                    "family": "Melchers",
+                    "given": "Natalie V. S. Vinkeles"
+                },
+                {
+                    "family": "Stolk",
+                    "given": "Wilma A."
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Loon",
+                    "given": "Welmoed"
+                },
+                {
+                    "family": "Pedrique",
+                    "given": "Belén"
+                },
+                {
+                    "family": "Bakker",
+                    "given": "Roel"
+                },
+                {
+                    "family": "Murdoch",
+                    "given": "Michele E."
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Vlas",
+                    "given": "Sake J."
+                },
+                {
+                    "family": "Coffeng",
+                    "given": "Luc E."
                 }
             ],
-            "id": "who2021",
+            "container-title": "PLOS Neglected Tropical Diseases",
+            "id": "melchers2021",
+            "issue": "7",
             "issued": {
                 "date-parts": [
                     [
-                        2021
+                        2021,
+                        7,
+                        26
                     ]
                 ]
             },
             "language": "en",
-            "title": "Global leprosy (Hansen disease) update, 2019: time to step-up prevention initiatives",
-            "title-short": "Global leprosy (Hansen disease) update, 2019",
-            "type": ""
-        },
-        {
-            "DOI": "10.1038/s41597-019-0079-5",
-            "URL": "http://dx.doi.org/10.1038/s41597-019-0079-5",
-            "author": [
-                {
-                    "family": "Hill",
-                    "given": "Elex"
-                },
-                {
-                    "family": "Hall",
-                    "given": "Jason"
-                },
-                {
-                    "family": "Letourneau",
-                    "given": "Ian D."
-                },
-                {
-                    "family": "Donkers",
-                    "given": "Katie"
-                },
-                {
-                    "family": "Shirude",
-                    "given": "Shreya"
-                },
-                {
-                    "family": "Pigott",
-                    "given": "David M."
-                },
-                {
-                    "family": "Hay",
-                    "given": "Simon I."
-                },
-                {
-                    "family": "Cromwell",
-                    "given": "Elizabeth A."
-                }
-            ],
-            "container-title": "Scientific Data",
-            "id": "hill2019",
-            "issue": "1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2019,
-                        5,
-                        22
-                    ]
-                ]
-            },
-            "language": "en",
-            "title": "A database of geopositioned onchocerciasis prevalence data",
+            "note": "Publisher: Public Library of Science",
+            "page": "e0009604",
+            "title": "The burden of skin disease and eye disease due to onchocerciasis in countries formerly under the African Programme for Onchocerciasis Control mandate for 1990, 2020, and 2030",
             "type": "article-journal",
-            "volume": "6"
+            "volume": "15"
         }
     ],
     "project_biblios": []
