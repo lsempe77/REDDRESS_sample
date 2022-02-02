@@ -3,7 +3,7 @@ title: "REDRESS - District sampling"
 author: "Lucas Sempe & Yan Ding"
 date: "31/01/2022"
 output:
-    bookdown::tufte_html_book:
+  bookdown::gitbook:
       number_sections: false
 header-includes:
    - \usepackage{multirow}
