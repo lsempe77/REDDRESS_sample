@@ -28,6 +28,8 @@ Sampling_frame <- read_excel("Sampling frame draft_13.12.2021_From Colleen.xlsx"
 # To make sure we are dealing with charts
 hf$Center<-as.character(hf$Center)
 
+variable.names(Sampling_frame)
+
 Sampling_frame$`Facility name`<-as.character(Sampling_frame$`Facility name`)
 
 hf_red<-hf[,c(23,25,5)]
