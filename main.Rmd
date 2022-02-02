@@ -3,19 +3,22 @@ title: "REDRESS - District sampling"
 author: "Lucas Sempe & Yan Ding"
 date: "31/01/2022"
 output:
-  bookdown::word_document2:
-  bookdown::pdf_document2:
   bookdown::gitbook:
-    download: ["index.pdf", "PDF"]
+    highlight: espresso
     number_sections: false
 header-includes:
+   - \usepackage{booktabs}
    - \usepackage{multirow}
 bibliography: references.bib
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
-
 knitr::opts_chunk$set(echo = F,message = F)
+
+
 
 ```
 
@@ -24,17 +27,18 @@ knitr::opts_chunk$set(echo = F,message = F)
 source("draw.R")
 
 
+texPreview::tex_opts$set( 
+  returnType = 'html',
+  opts.html   = list(width = '75%', height = '75%')
+)
+
 ```
 
 ## Introduction
 
-For many people with severe stigmatising skin diseases, lack of access to health and social services results in significant physical and psycho-social consequences, complex treatment journeys, and catastrophic socio-economic impacts. Our research aims to reduce illness, stigma, social exclusion and poverty caused by severe stigmatising skin diseases (SSSDs) in Liberia. Improving fair access to services is an important cornerstone of universal health coverage (UHC) (the provision of key health services to everyone, regardless of socio-economic status, disability or gender, for example) and in attaining the Sustainable Development Goals. UHC requires action beyond single disease programmes and approaches to ensure that no one is left behind. Integrated health system approaches to managing skin diseases have been proposed as a key solution to these challenges.
-
-Liberia is one of the first countries in the world to develop a national integrated approach to managing SSSDs. This means managing diseases with signs on the skin (e.g. lymphatic filariasis, leprosy, Buruli ulcer, yaws and onchocerciasis), through a combined approach at the local level. However, there is limited evidence about patient knowledge, priorities and experiences and the equity and effectiveness of the current approach.
-
-REDRESS will develop new knowledge with regional and global relevance on affordable, timely, appropriate and improved treatment strategies that also reduce stigma and address other social issues for affected vulnerable populations. Our project has been co-developed between researchers, patients and programme implementers at the request of the Liberian NTD programme and directly responds to priority health needs, detailed in the country’s ‘Investment Plan for Building a Resilient Health System’.
-
-The purpose of this document is set the guidelines and suggest a sampling strategy for the implementation and evaluation of the REDRESS project.
+The purpose of this document is set the guidelines and suggest a
+sampling strategy for the implementation and evaluation of the REDRESS
+project.
 
 The study of the intervention and the evaluation will collect primary
 data exclusively in the three treatment counties: **Lofa** for ***Study
@@ -62,8 +66,6 @@ districts:
 
 ## Prevalence
 
-The severe stigmatising skin diseases that we are focused on in REDRESS are neglected tropical skin infections that can cause significant illness to an affected person through lack of treatment or prevention and often result in morbidity and disability. Several Neglected Tropical Diseases (NTDs) present in the skin including destructive skin ulcers and elephantiasis. These diseases contribute to the global burden of Severe Stigmatising Skin Diseases (SSSDs) and constitute one of the top 10 causes of disability worldwide. Stigma associated with these diseases can lead to social exclusion and psychological distress. 
-
 Considering there is are relatively low number of SSSDs, we review
 evidence of prevalence of the diseases in recent years. @simpson2019 did
 a systematic review of **Buruli ulcer** prevalence worldwide. Prevalence
@@ -74,52 +76,42 @@ countries and consensus on presence in 12.
 
 @timothy2021 conducted a population-based cross-sectional integrated
 survey for skin NTDs (Buruli ulcer, leprosy, lymphatic
-filariasis--associated morbidity, and yaws) during June-October 2018 in
+filariasis--associated morbidity, and yaws) during June--October 2018 in
 Maryland County, Liberia (census population 165,456). The find confirmed
 endemicity and autochthonous transmission of **yaws** in Liberia after a
-population-based, community-led burden estimation of 24 cases, 2.6 [95% CI 1.4-3.9] cases/10,000 population). Aside from 1 case in a 32-year-old person, all confirmed cases were in persons <18 years of age, most of whom were male.
+population-based, community-led burden estimation (56,825 participants),
+24 cases; 2.6 [95% CI 1.4-3.9] cases/10,000 population). Aside from 1
+case in a 32-year-old person, all confirmed cases were in persons <18
+years of age, most of whom were male.
 
 @cromwell2020 estimate a posterior probability that the prevalence of
 **lymphatic filariasis** by immunochromatographic test as of 2018 was
 unlikely to be below 1% in Ghana, Liberia, northern Democratic Republic
-of the Congo, and Côte d'Ivoire. @who2021 reports 109 new cases of
-**leprosis** (registered prevalence) in Liberia in 2019. Finally,
-@melchers2021 estimate a prevalence lower than <0.05% for
-**onchocerciasis** in Liberia.
+of the Congo, and Côte d'Ivoire. [@who2021] reports 109 new cases of **leprosis** (registered prevalence) in Liberia in 2019. Finally,[@vinkelesmelchers2021] estimate a prevalence lower than <0.05% for **onchocerciasis** in Liberia.
 
-Data from the Ministry of Health (MoH) of Liberia also provides
-additional insights. Table \@ref(tab:raw) shows the number of cases from
-the selected diseases from 2017 to 2019. We observe that years 2017 and
-2018 show a larger number of reported cases, where leprosis, buruli
-ulcer and lymphatic filariasis show the higher number of cases at
-country level. It is worth noticing that at county level, the highest
-single value found is 42 cases of buruli ulcer in Lofa in 2017.
+Data from the Ministry of Health (MoH) of Liberia also provides additional insights. Table \@ref(tab:raw) shows the number of cases from the selected diseases from 2017 to 2019. We observe that years 2017 and 2018 show a larger number of reported cases, where leprosis, buruli ulcer and lymphatic filariasis show the higher number of cases at country level. It is worth noticing that at county level, the highest single value found is 42 cases of buruli ulcer in Lofa in 2017.
 
-|      |      | Margibi | G. Gedeh | Lofa | National Annual Total |
-|------|------|---------|----------|------|:---------------------:|
-| 2017 | LEPR | 0       | 12       | 0    |          164          |
-|      | BU   | 20      | 9        | 42   |          202          |
-|      | HY   | 3       | 0        | 0    |          122          |
-|      | LY   | 4       | 1        | 9    |          223          |
-|      | YAWS | 0       | 0        | 0    |           0           |
-| 2018 | LEPR | 1       | 2        | 3    |          189          |
-|      | BU   | 29      | 4        | 21   |          324          |
-|      | HY   | 0       | 0        | 6    |          25           |
-|      | LY   | 0       | 0        | 11   |          64           |
-|      | YAWS | 0       | 0        | 0    |          19           |
-| 2019 | LEPR | 2       | 4        | 1    |          62           |
-|      | BU   | 3       | 2        | 20   |          129          |
-|      | HY   | 0       | 0        | 0    |           0           |
-|      | LY   | 0       | 0        | 1    |          18           |
-|      | YAWS | 0       | 0        | 5    |          28           |
+|      	|      	| Margibi 	| G. Gedeh 	| Lofa 	|  National Annual Total  	|
+|------	|------	|---------	|----------	|------	|:-----------------------:	|
+| 2017 	| LEPR 	| 0       	| 12       	| 0    	| 164                     	|
+|      	| BU   	| 20      	| 9        	| 42   	| 202                     	|
+|      	| HY   	| 3       	| 0        	| 0    	| 122                     	|
+|      	| LY   	| 4       	| 1        	| 9    	| 223                     	|
+|      	| YAWS 	| 0       	| 0        	| 0    	| 0                       	|
+| 2018 	| LEPR 	| 1       	| 2        	| 3    	| 189                     	|
+|      	| BU   	| 29      	| 4        	| 21   	| 324                     	|
+|      	| HY   	| 0       	| 0        	| 6    	| 25                      	|
+|      	| LY   	| 0       	| 0        	| 11   	| 64                      	|
+|      	| YAWS 	| 0       	| 0        	| 0    	| 19                      	|
+| 2019 	| LEPR 	| 2       	| 4        	| 1    	| 62                      	|
+|      	| BU   	| 3       	| 2        	| 20   	| 129                     	|
+|      	| HY   	| 0       	| 0        	| 0    	| 0                       	|
+|      	| LY   	| 0       	| 0        	| 1    	| 18                      	|
+|      	| YAWS 	| 0       	| 0        	| 5    	| 28                      	|
 
-: (#tab:raw) Number of cases in selected counties and national level by
-SSSDs - 2017 to 2019
+: (#tab:raw) Number of cases in selected counties and national level by SSSDs - 2017 to 2019
 
-Table \@ref(tab:incidence) shows the computation of the incidence of new
-cases by 10,000 inhabitants. This suggests, if compared to the
-previously aforementioned prevalence/incidence data a potential
-combination of under-reporting and low prevelance.
+Table \@ref(tab:incidence) shows the computation of the incidence of new cases by 10,000 inhabitants. This suggests, if compared to the previously aforementioned prevalence/incidence data a potential combination of under-reporting and low prevelance.
 
 |      | Margibi | G. Gedeh | Lofa | National Annual Total |
 |------|---------|----------|------|:---------------------:|
@@ -139,8 +131,7 @@ combination of under-reporting and low prevelance.
 | LY   | 0.00    | 0.00     | 0.00 |         0.04          |
 | YAWS | 0.00    | 0.00     | 0.01 |         0.06          |
 
-: (#tab:incidence) Incidence by 10,000 inhabitants in selected counties
-and national level by SSSDs - 2017 to 2019
+: (#tab:incidence) Incidence by 10,000 inhabitants in selected counties and national level by SSSDs - 2017 to 2019
 
 ## Sample proposal
 
@@ -180,13 +171,11 @@ loft
 ```
 
 Table \@ref(tab:margibi) shows 4 districts in Margibi County. We find
-three potential districts. First, the Kakata District, where the capital
-is located and it is the most populated and with the largest number of
-health facilities - although there where only 1 SSSD in 2019. Second,
-the Mambah-Kaba District, which is second in number of health facilities
-and first in number of cases. Finally, the Firestone District appears as
-a candidate due to the larger relative population and the highster
-number of registered cases in 2020.
+three potential districts. First, the Kakata District, where the capital is
+located and it is the most populated and with the largest number of
+health facilities - although there where only 1 SSSD in 2019. Second, the
+Mambah-Kaba District, which is second in number of health facilities and
+first in number of cases. Finally, the Firestone District appears as a candidate due to the larger relative population and the highster number of registered cases in 2020.
 
 ```{r margibi, fig.cap="Summary statistics for districts in Margibi county"}
 
@@ -205,13 +194,7 @@ marg.t
 
 ```
 
-Table \@ref(tab:grand) presents districts from the Grand Gedeh county,
-where the Tchien district appears as the best candidate in terms of
-higher population, health facilities and SSSD cases identified in 2020.
-The other districts do not show very relevant differences in terms of
-population and SSDD cases. Based on that, we suggest choosing the
-Cavalla District as it has the largest pool of health facilities (6)
-among the remaining districts.
+Table \@ref(tab:grand) presents districts from the Grand Gedeh county, where the Tchien district appears as the best candidate in terms of higher population, health facilities and SSSD cases identified in 2020. The other districts do not show very relevant differences in terms of population and SSDD cases. Based on that, we suggest choosing the Cavalla District as it has the largest pool of health facilities (6) among the remaining districts.
 
 ```{r grand, fig.cap="Summary statistics for districts in Grand Gedeh county"}
 
@@ -229,9 +212,6 @@ gg.t <- set_caption(gg.t, "District: Grand Gedeh")
 
 gg.t
 
-# library(rsconnect)
-# 
-# connectUser(account = "lucas_sempe", server = "bookdown.org", quiet = TRUE)
 
 ```
 

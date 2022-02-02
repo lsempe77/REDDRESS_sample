@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 library(terra)
+=======
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
 library(texPreview)
 library(stringdist)
 library(readxl)
@@ -26,6 +29,10 @@ hf<- hf %>% filter(Region %in%  st1 | Region %in%  st2 | Region=="Grand Gedeh")
 
 Sampling_frame <- read_excel("Sampling frame draft_13.12.2021_From Colleen.xlsx")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
 # To make sure we are dealing with charts
 hf$Center<-as.character(hf$Center)
 

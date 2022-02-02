@@ -3,10 +3,11 @@ title: "REDRESS - District sampling"
 author: "Lucas Sempe & Yan Ding"
 date: "31/01/2022"
 output:
+  bookdown::word_document2:
+  bookdown::pdf_document2:
   bookdown::gitbook:
     download: ["index.pdf", "PDF"]
     number_sections: false
-  bookdown::pdf_document2:
 header-includes:
    - \usepackage{multirow}
 bibliography: references.bib

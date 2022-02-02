@@ -1,13 +1,23 @@
 .tabwid table{
+<<<<<<< HEAD
   border-spacing:0px !important;
+=======
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
   border-collapse:collapse;
   line-height:1;
   margin-left:auto;
   margin-right:auto;
   border-width: 0;
   display: table;
+<<<<<<< HEAD
   margin-top: 1.275em;
   margin-bottom: 1.275em;
+=======
+  margin-top: 5px;
+  margin-bottom: 5px;
+  table-layout: fixed;
+  border-spacing: 0;
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
   border-color: transparent;
 }
 .tabwid_left table{
@@ -16,11 +26,22 @@
 .tabwid_right table{
   margin-right:0;
 }
+<<<<<<< HEAD
 .tabwid td {
     padding: 0;
 }
 .tabwid a {
   text-decoration: none;
+=======
+
+.tabwid th{
+  padding:0;
+}
+.tabwid td {
+    line-height: 1em;
+    padding: 0;
+    overflow: hidden;
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
 }
 .tabwid thead {
     background-color: transparent;
@@ -31,3 +52,56 @@
 .tabwid table tr {
 background-color: transparent;
 }
+<<<<<<< HEAD
+=======
+
+.tabwid img {
+background-color: transparent;
+padding: 0;
+border: 0;
+border-radius: 0;
+margin: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+
+
+
+/* desable bookdown styles */
+
+
+.book .book-body .page-wrapper .page-inner section.normal .tabwid table td,.book .book-body .page-wrapper .page-inner section.normal table th {
+    padding: 0;
+}
+.book .book-body .page-wrapper .page-inner section.normal .tabwid table tr {
+    background-color: #fff;
+    border-top: 0px solid #ccc;
+}
+.book .book-body .page-wrapper .page-inner section.normal .tabwid table tr:nth-child(2n) {
+    background-color: initial;
+}
+.book .book-body .page-wrapper .page-inner section.normal .tabwid table {
+    display: table;
+    width: initial;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: initial;
+}
+
+
+/* disable xaringan styles */
+
+.remark-slide .tabwid thead, .remark-slide .tabwid tfoot, .remark-slide .tabwid tr:nth-child(even) {
+    background: initial;
+}
+.remark-slide .tabwid table {
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+.remark-slide-content .tabwid p{
+    font-size: inital;
+}
+
+
+>>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
