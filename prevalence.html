@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Prevalence | REDRESS - District sampling" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+<meta name="author" content="Lucas Sempe &amp; Yan Ding" />
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta name="description" content="Prevalence | REDRESS - District sampling">
+
+<title>Prevalence | REDRESS - District sampling</title>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="introduction.html#introduction">Introduction</a></li>
+<li><a href="criteria.html#criteria">Criteria</a></li>
+<li><a href="prevalence.html#prevalence">Prevalence</a></li>
+<li><a href="sample-proposal.html#sample-proposal">Sample proposal</a></li>
+<li><a href="map.html#map">Map</a></li>
+<li><a href="references.html#references">References</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="prevalence" class="section level2">
+<h2>Prevalence</h2>
+<p>Considering there is are relatively low number of SSSDs, we review
+evidence of prevalence of the diseases in recent years. <span class="citation">Simpson et al. (2019)</span> did
+a systematic review of <strong>Buruli ulcer</strong> prevalence worldwide. Prevalence
+estimates within study areas ranged from 3.2 (95% CI 3.1-3.3) cases per
+10000 population in Côte d’Ivoire to 26.9 <span class="math display">\[95% CI 23.5-30.7\]</span> cases per
+10,000 population in Benin. There was evidence of Buruli ulcer in 32
+countries and consensus on presence in 12.</p>
+<p><span class="citation">Timothy et al. (2021)</span> conducted a population-based cross-sectional integrated
+survey for skin NTDs (Buruli ulcer, leprosy, lymphatic
+filariasis–associated morbidity, and yaws) during June–October 2018 in
+Maryland County, Liberia (census population 165,456). The find confirmed
+endemicity and autochthonous transmission of <strong>yaws</strong> in Liberia after a
+population-based, community-led burden estimation (56,825 participants),
+24 cases; 2.6 <span class="math display">\[95% CI 1.4-3.9\]</span> cases/10,000 population). Aside from 1
+case in a 32-year-old person, all confirmed cases were in persons &lt;18
+years of age, most of whom were male.</p>
+<p><span class="citation">Cromwell et al. (2020)</span> estimate a posterior probability that the prevalence of
+<strong>lymphatic filariasis</strong> by immunochromatographic test as of 2018 was
+unlikely to be below 1% in Ghana, Liberia, northern Democratic Republic
+of the Congo, and Côte d’Ivoire. <span class="citation">WHO (2021)</span> reports 109 new cases of
+<strong>leprosis</strong> (registered prevalence) in Liberia in 2019. Finally,
+<span class="citation">Melchers et al. (2021)</span> estimate a prevalence lower than &lt;0.05% for
+<strong>onchocerciasis</strong> in Liberia.</p>
+<p>Data from the Ministry of Health (MoH) of Liberia also provides
+additional insights. Table <a href="prevalence.html#tab:raw">1</a> shows the number of cases from
+the selected diseases from 2017 to 2019. We observe that years 2017 and
+2018 show a larger number of reported cases, where leprosis, buruli
+ulcer and lymphatic filariasis show the higher number of cases at
+country level. It is worth noticing that at county level, the highest
+single value found is 42 cases of buruli ulcer in Lofa in 2017.</p>
+<table>
+<caption><span id="tab:raw">Table 1: </span> Number of cases in selected counties and national level by
+SSSDs - 2017 to 2019</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th>Margibi</th>
+<th>G. Gedeh</th>
+<th>Lofa</th>
+<th align="center">National Annual Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2017</td>
+<td>LEPR</td>
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td align="center">164</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>BU</td>
+<td>20</td>
+<td>9</td>
+<td>42</td>
+<td align="center">202</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>HY</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td align="center">122</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>LY</td>
+<td>4</td>
+<td>1</td>
+<td>9</td>
+<td align="center">223</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>YAWS</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td align="center">0</td>
+</tr>
+<tr class="even">
+<td>2018</td>
+<td>LEPR</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td align="center">189</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>BU</td>
+<td>29</td>
+<td>4</td>
+<td>21</td>
+<td align="center">324</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>HY</td>
+<td>0</td>
+<td>0</td>
+<td>6</td>
+<td align="center">25</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>LY</td>
+<td>0</td>
+<td>0</td>
+<td>11</td>
+<td align="center">64</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>YAWS</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td>2019</td>
+<td>LEPR</td>
+<td>2</td>
+<td>4</td>
+<td>1</td>
+<td align="center">62</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>BU</td>
+<td>3</td>
+<td>2</td>
+<td>20</td>
+<td align="center">129</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>HY</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td align="center">0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>LY</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>YAWS</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+<td align="center">28</td>
+</tr>
+</tbody>
+</table>
+<p>Table <a href="prevalence.html#tab:incidence">2</a> shows the computation of the incidence of new
+cases by 10,000 inhabitants. This suggests, if compared to the
+previously aforementioned prevalence/incidence data a potential
+combination of under-reporting and low prevelance.</p>
+<table>
+<caption><span id="tab:incidence">Table 2: </span> Incidence by 10,000 inhabitants in selected counties
+and national level by SSSDs - 2017 to 2019</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th>Margibi</th>
+<th>G. Gedeh</th>
+<th>Lofa</th>
+<th align="center">National Annual Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LEPR</td>
+<td>0.00</td>
+<td>0.02</td>
+<td>0.00</td>
+<td align="center">0.33</td>
+</tr>
+<tr class="even">
+<td>BU</td>
+<td>0.04</td>
+<td>0.02</td>
+<td>0.08</td>
+<td align="center">0.40</td>
+</tr>
+<tr class="odd">
+<td>HY</td>
+<td>0.01</td>
+<td>0.00</td>
+<td>0.00</td>
+<td align="center">0.24</td>
+</tr>
+<tr class="even">
+<td>LY</td>
+<td>0.01</td>
+<td>0.00</td>
+<td>0.02</td>
+<td align="center">0.45</td>
+</tr>
+<tr class="odd">
+<td>YAWS</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td align="center">0.00</td>
+</tr>
+<tr class="even">
+<td>LEPR</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.01</td>
+<td align="center">0.38</td>
+</tr>
+<tr class="odd">
+<td>BU</td>
+<td>0.06</td>
+<td>0.01</td>
+<td>0.04</td>
+<td align="center">0.65</td>
+</tr>
+<tr class="even">
+<td>HY</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.01</td>
+<td align="center">0.05</td>
+</tr>
+<tr class="odd">
+<td>LY</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.02</td>
+<td align="center">0.13</td>
+</tr>
+<tr class="even">
+<td>YAWS</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td align="center">0.04</td>
+</tr>
+<tr class="odd">
+<td>LEPR</td>
+<td>0.00</td>
+<td>0.01</td>
+<td>0.00</td>
+<td align="center">0.12</td>
+</tr>
+<tr class="even">
+<td>BU</td>
+<td>0.01</td>
+<td>0.00</td>
+<td>0.04</td>
+<td align="center">0.26</td>
+</tr>
+<tr class="odd">
+<td>HY</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td align="center">0.00</td>
+</tr>
+<tr class="even">
+<td>LY</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td align="center">0.04</td>
+</tr>
+<tr class="odd">
+<td>YAWS</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.01</td>
+<td align="center">0.06</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="text-align: center;">
+<a href="criteria.html"><button class="btn btn-default">Previous</button></a>
+<a href="sample-proposal.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>
