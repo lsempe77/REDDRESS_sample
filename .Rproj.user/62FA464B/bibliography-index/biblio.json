@@ -1,0 +1,1167 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1016/s2214-109x(19)30171-8",
+            "URL": "http://dx.doi.org/10.1016/S2214-109X(19)30171-8",
+            "author": [
+                {
+                    "family": "Simpson",
+                    "given": "Hope"
+                },
+                {
+                    "family": "Deribe",
+                    "given": "Kebede"
+                },
+                {
+                    "family": "Tabah",
+                    "given": "Earnest Njih"
+                },
+                {
+                    "family": "Peters",
+                    "given": "Adebayo"
+                },
+                {
+                    "family": "Maman",
+                    "given": "Issaka"
+                },
+                {
+                    "family": "Frimpong",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Ampadu",
+                    "given": "Edwin"
+                },
+                {
+                    "family": "Phillips",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Saunderson",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Pullan",
+                    "given": "Rachel L"
+                },
+                {
+                    "family": "Cano",
+                    "given": "Jorge"
+                }
+            ],
+            "container-title": "The Lancet Global Health",
+            "id": "simpson2019",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        7
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "e912-e922",
+            "title": "Mapping the global distribution of Buruli ulcer: a systematic review with evidence consensus",
+            "title-short": "Mapping the global distribution of Buruli ulcer",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "DOI": "10.3201/eid2704.204442",
+            "URL": "http://dx.doi.org/10.3201/eid2704.204442",
+            "author": [
+                {
+                    "family": "Timothy",
+                    "given": "Joseph W. S."
+                },
+                {
+                    "family": "Beale",
+                    "given": "Mathew A."
+                },
+                {
+                    "family": "Rogers",
+                    "given": "Emerson"
+                },
+                {
+                    "family": "Zaizay",
+                    "given": "Zeela"
+                },
+                {
+                    "family": "Halliday",
+                    "given": "Katherine E."
+                },
+                {
+                    "family": "Mulbah",
+                    "given": "Tarnue"
+                },
+                {
+                    "family": "Giddings",
+                    "given": "Romeo K."
+                },
+                {
+                    "family": "Walker",
+                    "given": "Stephen L."
+                },
+                {
+                    "family": "Thomson",
+                    "given": "Nicholas R."
+                },
+                {
+                    "family": "Kollie",
+                    "given": "Karsor K."
+                },
+                {
+                    "family": "Pullan",
+                    "given": "Rachel L."
+                },
+                {
+                    "family": "Marks",
+                    "given": "Michael"
+                }
+            ],
+            "container-title": "Emerging Infectious Diseases",
+            "id": "timothy2021",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        4
+                    ]
+                ]
+            },
+            "page": "1123-1132",
+            "title": "Epidemiologic and genomic reidentification of yaws, liberia",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "DOI": "10.1016/s2214-109x(20)30286-2",
+            "URL": "http://dx.doi.org/10.1016/S2214-109X(20)30286-2",
+            "author": [
+                {
+                    "family": "Cromwell",
+                    "given": "Elizabeth A"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Chris A"
+                },
+                {
+                    "family": "Kwong",
+                    "given": "Kevin T"
+                },
+                {
+                    "family": "Pigott",
+                    "given": "David M"
+                },
+                {
+                    "family": "Mupfasoni",
+                    "given": "Denise"
+                },
+                {
+                    "family": "Biswas",
+                    "given": "Gautam"
+                },
+                {
+                    "family": "Shirude",
+                    "given": "Shreya"
+                },
+                {
+                    "family": "Hill",
+                    "given": "Elex"
+                },
+                {
+                    "family": "Donkers",
+                    "given": "Katie M"
+                },
+                {
+                    "family": "Abdoli",
+                    "given": "Amir"
+                },
+                {
+                    "family": "Abrigo",
+                    "given": "Michael R M"
+                },
+                {
+                    "family": "Adekanmbi",
+                    "given": "Victor"
+                },
+                {
+                    "family": "Adetokunboh Sr.",
+                    "given": "Olatunji O"
+                },
+                {
+                    "family": "Adinarayanan",
+                    "given": "Srividya"
+                },
+                {
+                    "family": "Ahmadpour",
+                    "given": "Ehsan"
+                },
+                {
+                    "family": "Ahmed",
+                    "given": "Muktar Beshir"
+                },
+                {
+                    "family": "Akalu",
+                    "given": "Temesgen Yihunie"
+                },
+                {
+                    "family": "Alanezi",
+                    "given": "Fahad Mashhour"
+                },
+                {
+                    "family": "Alanzi",
+                    "given": "Turki M"
+                },
+                {
+                    "family": "Alinia",
+                    "given": "Cyrus"
+                },
+                {
+                    "family": "Alipour",
+                    "given": "Vahid"
+                },
+                {
+                    "family": "Amit Sr.",
+                    "given": "Arianna Maever L"
+                },
+                {
+                    "family": "Anber",
+                    "given": "Nahla Hamed"
+                },
+                {
+                    "family": "Ancuceanu",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Andualem",
+                    "given": "Zewudu"
+                },
+                {
+                    "family": "Anjomshoa",
+                    "given": "Mina"
+                },
+                {
+                    "family": "Ansari",
+                    "given": "Fereshteh"
+                },
+                {
+                    "family": "Antonio",
+                    "given": "Carl Abelardo T"
+                },
+                {
+                    "family": "Anvari",
+                    "given": "Davood"
+                },
+                {
+                    "family": "Appiah",
+                    "given": "Seth Christopher Yaw"
+                },
+                {
+                    "family": "Arabloo",
+                    "given": "Jalal"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Benjamin F"
+                },
+                {
+                    "family": "Ausloos",
+                    "given": "Marcel"
+                },
+                {
+                    "family": "Ayanore Sr.",
+                    "given": "Martin Amogre"
+                },
+                {
+                    "family": "Badirzadeh",
+                    "given": "Alireza"
+                },
+                {
+                    "family": "Baig Jr.",
+                    "given": "Atif Amin"
+                },
+                {
+                    "family": "Banach Sr.",
+                    "given": "Maciej"
+                },
+                {
+                    "family": "Baraki Sr.",
+                    "given": "Adhanom Gebreegziabher"
+                },
+                {
+                    "family": "Bärnighausen",
+                    "given": "Till Winfried"
+                },
+                {
+                    "family": "Bayati",
+                    "given": "Mohsen"
+                },
+                {
+                    "family": "Bhattacharyya Sr.",
+                    "given": "Krittika"
+                },
+                {
+                    "family": "Bhutta",
+                    "given": "Zulfiqar A"
+                },
+                {
+                    "family": "Bijani",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Bisanzio",
+                    "given": "Donal"
+                },
+                {
+                    "family": "Bockarie",
+                    "given": "Moses John"
+                },
+                {
+                    "family": "Bohlouli",
+                    "given": "Somayeh"
+                },
+                {
+                    "family": "Bohluli",
+                    "given": "Mehdi"
+                },
+                {
+                    "family": "Butt",
+                    "given": "Zahid A"
+                },
+                {
+                    "family": "Cano",
+                    "given": "Jorge"
+                },
+                {
+                    "family": "Carvalho",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Chattu",
+                    "given": "Vijay Kumar"
+                },
+                {
+                    "family": "Chavshin",
+                    "given": "Ali Reza"
+                },
+                {
+                    "family": "Cormier",
+                    "given": "Natalie Maria"
+                },
+                {
+                    "family": "Damiani",
+                    "given": "Giovanni"
+                },
+                {
+                    "family": "Dandona",
+                    "given": "Lalit"
+                },
+                {
+                    "family": "Dandona",
+                    "given": "Rakhi"
+                },
+                {
+                    "family": "Darwesh",
+                    "given": "Aso Mohammad"
+                },
+                {
+                    "family": "Daryani",
+                    "given": "Ahmad"
+                },
+                {
+                    "family": "Dash",
+                    "given": "Aditya Prasad"
+                },
+                {
+                    "family": "Deribe",
+                    "given": "Kebede"
+                },
+                {
+                    "family": "Deshpande",
+                    "given": "Aniruddha"
+                },
+                {
+                    "family": "Dessu",
+                    "given": "Blen Kassahun"
+                },
+                {
+                    "family": "Dhimal",
+                    "given": "Meghnath"
+                },
+                {
+                    "family": "Dianatinasab",
+                    "given": "Mostafa"
+                },
+                {
+                    "family": "Diaz",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Do",
+                    "given": "Hoa Thi"
+                },
+                {
+                    "family": "Earl",
+                    "given": "Lucas"
+                },
+                {
+                    "family": "El Tantawi",
+                    "given": "Maha"
+                },
+                {
+                    "family": "Faraj",
+                    "given": "Anwar"
+                },
+                {
+                    "family": "Fattahi",
+                    "given": "Nazir"
+                },
+                {
+                    "family": "Fernandes",
+                    "given": "Eduarda"
+                },
+                {
+                    "family": "Fischer",
+                    "given": "Florian"
+                },
+                {
+                    "family": "Foigt",
+                    "given": "Nataliya A"
+                },
+                {
+                    "family": "Foroutan",
+                    "given": "Masoud"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Yuming"
+                },
+                {
+                    "family": "Hailu",
+                    "given": "Gessessew Bugssa"
+                },
+                {
+                    "family": "Hasaballah",
+                    "given": "Ahmed I"
+                },
+                {
+                    "family": "Hassankhani",
+                    "given": "Hadi"
+                },
+                {
+                    "family": "Herteliu",
+                    "given": "Claudiu"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Hidru",
+                    "given": "Hagos Degefa"
+                },
+                {
+                    "family": "Hole",
+                    "given": "Michael K"
+                },
+                {
+                    "family": "Hon",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Hossain",
+                    "given": "Naznin"
+                },
+                {
+                    "family": "Hosseinzadeh",
+                    "given": "Mehdi"
+                },
+                {
+                    "family": "Househ",
+                    "given": "Mowafa"
+                },
+                {
+                    "family": "Humayun",
+                    "given": "Ayesha"
+                },
+                {
+                    "family": "Ilesanmi",
+                    "given": "Olayinka Stephen"
+                },
+                {
+                    "family": "Ilic",
+                    "given": "Irena M"
+                },
+                {
+                    "family": "Ilic",
+                    "given": "Milena D"
+                },
+                {
+                    "family": "Iqbal",
+                    "given": "Usman"
+                },
+                {
+                    "family": "Irvani",
+                    "given": "Seyed Sina Naghibi"
+                },
+                {
+                    "family": "Islam",
+                    "given": "M Mofizul"
+                },
+                {
+                    "family": "Jha",
+                    "given": "Ravi Prakash"
+                },
+                {
+                    "family": "Ji",
+                    "given": "John S"
+                },
+                {
+                    "family": "Johnson",
+                    "given": "Kimberly B"
+                },
+                {
+                    "family": "Jozwiak",
+                    "given": "Jacek Jerzy"
+                },
+                {
+                    "family": "Kabir",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Kalankesh",
+                    "given": "Leila R"
+                },
+                {
+                    "family": "Kalhor",
+                    "given": "Rohollah"
+                },
+                {
+                    "family": "Karami Matin",
+                    "given": "Behzad"
+                },
+                {
+                    "family": "Karch",
+                    "given": "André"
+                },
+                {
+                    "family": "Karimi",
+                    "given": "Salah Eddin"
+                },
+                {
+                    "family": "Kasaeian",
+                    "given": "Amir"
+                },
+                {
+                    "family": "Kayode",
+                    "given": "Gbenga A"
+                },
+                {
+                    "family": "Kazemi Karyani",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Kelbore",
+                    "given": "Abraham Getachew"
+                },
+                {
+                    "family": "Khafaie",
+                    "given": "Morteza Abdullatif"
+                },
+                {
+                    "family": "Khalilov",
+                    "given": "Rovshan"
+                },
+                {
+                    "family": "Khan",
+                    "given": "Junaid"
+                },
+                {
+                    "family": "Khatab",
+                    "given": "Khaled"
+                },
+                {
+                    "family": "Khater",
+                    "given": "Mona M"
+                },
+                {
+                    "family": "Khodayari",
+                    "given": "Mohammad Taghi"
+                },
+                {
+                    "family": "Kianipour",
+                    "given": "Neda"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Yun Jin"
+                },
+                {
+                    "family": "Kinyoki",
+                    "given": "Damaris K"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "G Anil"
+                },
+                {
+                    "family": "Kusuma",
+                    "given": "Dian"
+                },
+                {
+                    "family": "La Vecchia",
+                    "given": "Carlo"
+                },
+                {
+                    "family": "Lansingh",
+                    "given": "Van Charles"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Paul H"
+                },
+                {
+                    "family": "LeGrand",
+                    "given": "Kate E"
+                },
+                {
+                    "family": "Levine",
+                    "given": "Aubrey J"
+                },
+                {
+                    "family": "Li",
+                    "given": "Shanshan"
+                },
+                {
+                    "family": "Maleki",
+                    "given": "Shokofeh"
+                },
+                {
+                    "family": "Mansournia",
+                    "given": "Mohammad Ali"
+                },
+                {
+                    "family": "Martins-Melo",
+                    "given": "Francisco Rogerlândio"
+                },
+                {
+                    "family": "Massenburg",
+                    "given": "Benjamin Ballard"
+                },
+                {
+                    "family": "Mayala",
+                    "given": "Benjamin K"
+                },
+                {
+                    "family": "Meitei",
+                    "given": "Wahengbam Bigyananda"
+                },
+                {
+                    "family": "Mendoza",
+                    "given": "Walter"
+                },
+                {
+                    "family": "Mengistu",
+                    "given": "Desalegn Tadese"
+                },
+                {
+                    "family": "Mereta",
+                    "given": "Seid Tiku"
+                },
+                {
+                    "family": "Mestrovic",
+                    "given": "Tomislav"
+                },
+                {
+                    "family": "Mihretie",
+                    "given": "Kebadnew Mulatu"
+                },
+                {
+                    "family": "Miller-Petrie",
+                    "given": "Molly K"
+                },
+                {
+                    "family": "Mohammadian-Hafshejani",
+                    "given": "Abdollah"
+                },
+                {
+                    "family": "Mohammed",
+                    "given": "Shafiu"
+                },
+                {
+                    "family": "Mokdad",
+                    "given": "Ali H"
+                },
+                {
+                    "family": "Moradi",
+                    "given": "Masoud"
+                },
+                {
+                    "family": "Moradzadeh",
+                    "given": "Rahmatollah"
+                },
+                {
+                    "family": "Moraga",
+                    "given": "Paula"
+                },
+                {
+                    "family": "Morrison",
+                    "given": "Shane Douglas"
+                },
+                {
+                    "family": "Mosser",
+                    "given": "Jonathan F"
+                },
+                {
+                    "family": "Mousavi",
+                    "given": "Seyyed Meysam"
+                },
+                {
+                    "family": "Munro",
+                    "given": "Sandra B"
+                },
+                {
+                    "family": "Muthupandian",
+                    "given": "Saravanan"
+                },
+                {
+                    "family": "mwingira",
+                    "given": "Upendo J"
+                },
+                {
+                    "family": "Naderi",
+                    "given": "Mehdi"
+                },
+                {
+                    "family": "Nagarajan",
+                    "given": "Ahamarshan Jayaraman"
+                },
+                {
+                    "family": "Naik",
+                    "given": "Gurudatta"
+                },
+                {
+                    "family": "Negoi",
+                    "given": "Ionut"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Trang Huyen"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Huong Lan Thi"
+                },
+                {
+                    "family": "Olagunju",
+                    "given": "Andrew T"
+                },
+                {
+                    "family": "Omar Bali",
+                    "given": "Ahmed"
+                },
+                {
+                    "family": "Osarenotor",
+                    "given": "Osayomwanbo"
+                },
+                {
+                    "family": "Osei",
+                    "given": "Frank B"
+                },
+                {
+                    "family": "Pasupula",
+                    "given": "Deepak Kumar"
+                },
+                {
+                    "family": "Pirsaheb",
+                    "given": "Meghdad"
+                },
+                {
+                    "family": "Pourjafar",
+                    "given": "Hadi"
+                },
+                {
+                    "family": "Rathi",
+                    "given": "Priya"
+                },
+                {
+                    "family": "Rawaf",
+                    "given": "David Laith"
+                },
+                {
+                    "family": "Rawaf",
+                    "given": "Salman"
+                },
+                {
+                    "family": "Rawassizadeh",
+                    "given": "Reza"
+                },
+                {
+                    "family": "Reiner Jr",
+                    "given": "Robert C"
+                },
+                {
+                    "family": "Reta",
+                    "given": "Melese Abate"
+                },
+                {
+                    "family": "Rezapour",
+                    "given": "Aziz"
+                },
+                {
+                    "family": "Ribeiro",
+                    "given": "Ana Isabel"
+                },
+                {
+                    "family": "Rostami",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Sabesan",
+                    "given": "Shanmugavelu"
+                },
+                {
+                    "family": "Sadeghi",
+                    "given": "Ehsan"
+                },
+                {
+                    "family": "Sajadi",
+                    "given": "S Mohammad"
+                },
+                {
+                    "family": "Samy",
+                    "given": "Abdallah M"
+                },
+                {
+                    "family": "Sartorius",
+                    "given": "Benn"
+                },
+                {
+                    "family": "Schaeffer",
+                    "given": "Lauren E"
+                },
+                {
+                    "family": "Shaikh",
+                    "given": "Masood Ali"
+                },
+                {
+                    "family": "Sharafi",
+                    "given": "Kiomars"
+                },
+                {
+                    "family": "Sharafi",
+                    "given": "Zeinab"
+                },
+                {
+                    "family": "Sharifi",
+                    "given": "Hamid"
+                },
+                {
+                    "family": "Shibuya",
+                    "given": "Kenji"
+                },
+                {
+                    "family": "Shin",
+                    "given": "Jae Il"
+                },
+                {
+                    "family": "Soheili",
+                    "given": "Amin"
+                },
+                {
+                    "family": "Soltani",
+                    "given": "Shahin"
+                },
+                {
+                    "family": "Spotin",
+                    "given": "Adel"
+                },
+                {
+                    "family": "Stolk",
+                    "given": "Wilma A"
+                },
+                {
+                    "family": "Tesfay",
+                    "given": "Berhe Etsay"
+                },
+                {
+                    "family": "ThekkePurakkal",
+                    "given": "Akhil Soman"
+                },
+                {
+                    "family": "Topor-Madry",
+                    "given": "Roman"
+                },
+                {
+                    "family": "Tran",
+                    "given": "Khanh Bao"
+                },
+                {
+                    "family": "Tran",
+                    "given": "Bach Xuan"
+                },
+                {
+                    "family": "Ullah",
+                    "given": "Irfan"
+                },
+                {
+                    "family": "Unnikrishnan",
+                    "given": "Bhaskaran"
+                },
+                {
+                    "family": "Vasseghian",
+                    "given": "Yasser"
+                },
+                {
+                    "family": "Vinkeles Melchers",
+                    "given": "Natalie V S"
+                },
+                {
+                    "family": "Violante",
+                    "given": "Francesco S"
+                },
+                {
+                    "family": "Yamada",
+                    "given": "Tomohide"
+                },
+                {
+                    "family": "Yaya",
+                    "given": "Sanni"
+                },
+                {
+                    "family": "Yazdi-Feyzabadi",
+                    "given": "Vahid"
+                },
+                {
+                    "family": "Yip",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Yonemoto",
+                    "given": "Naohiro"
+                },
+                {
+                    "family": "Zaki",
+                    "given": "Leila"
+                },
+                {
+                    "family": "Zaman",
+                    "given": "Sojib Bin"
+                },
+                {
+                    "family": "Zamanian",
+                    "given": "Maryam"
+                },
+                {
+                    "family": "Zangeneh",
+                    "given": "Alireza"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhi-Jiang"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yunquan"
+                },
+                {
+                    "family": "Ziapour",
+                    "given": "Arash"
+                },
+                {
+                    "family": "King",
+                    "given": "Jonathan D"
+                },
+                {
+                    "family": "Hay",
+                    "given": "Simon I"
+                }
+            ],
+            "container-title": "The Lancet Global Health",
+            "id": "cromwell2020",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        9
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "e1186-e1194",
+            "title": "The global distribution of lymphatic filariasis, 200018: a geospatial analysis",
+            "title-short": "The global distribution of lymphatic filariasis, 200018",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "DOI": "10.1093/inthealth/ihaa012",
+            "URL": "http://dx.doi.org/10.1093/inthealth/ihaa012",
+            "author": [
+                {
+                    "family": "Siewe Fodjo",
+                    "given": "Joseph Nelson"
+                },
+                {
+                    "family": "Remme",
+                    "given": "Jan H F"
+                },
+                {
+                    "family": "Preux",
+                    "given": "Pierre-Marie"
+                },
+                {
+                    "family": "Colebunders",
+                    "given": "Robert"
+                }
+            ],
+            "container-title": "International Health",
+            "id": "siewefodjo2020",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3,
+                        6
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "192-202",
+            "title": "Meta-analysis of epilepsy prevalence in West Africa and its relationship with onchocerciasis endemicity and control",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1371/journal.pntd.0004328",
+            "URL": "http://dx.doi.org/10.1371/journal.pntd.0004328",
+            "author": [
+                {
+                    "family": "O’Hanlon",
+                    "given": "Simon J."
+                },
+                {
+                    "family": "Slater",
+                    "given": "Hannah C."
+                },
+                {
+                    "family": "Cheke",
+                    "given": "Robert A."
+                },
+                {
+                    "family": "Boatin",
+                    "given": "Boakye A."
+                },
+                {
+                    "family": "Coffeng",
+                    "given": "Luc E."
+                },
+                {
+                    "family": "Pion",
+                    "given": "Sébastien D. S."
+                },
+                {
+                    "family": "Boussinesq",
+                    "given": "Michel"
+                },
+                {
+                    "family": "Zouré",
+                    "given": "Honorat G. M."
+                },
+                {
+                    "family": "Stolk",
+                    "given": "Wilma A."
+                },
+                {
+                    "family": "Basáñez",
+                    "given": "María-Gloria"
+                }
+            ],
+            "container-title": "PLOS Neglected Tropical Diseases",
+            "editor": [
+                {
+                    "family": "Soares Magalhaes",
+                    "given": "Ricardo J."
+                }
+            ],
+            "id": "ohanlon2016",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        1,
+                        15
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "e0004328",
+            "title": "Model-Based Geostatistical Mapping of the Prevalence of Onchocerca volvulus in West Africa",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "DOI": "10.1371/journal.pntd.0009604",
+            "URL": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0009604",
+            "author": [
+                {
+                    "family": "Melchers",
+                    "given": "Natalie V. S. Vinkeles"
+                },
+                {
+                    "family": "Stolk",
+                    "given": "Wilma A."
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Loon",
+                    "given": "Welmoed"
+                },
+                {
+                    "family": "Pedrique",
+                    "given": "Belén"
+                },
+                {
+                    "family": "Bakker",
+                    "given": "Roel"
+                },
+                {
+                    "family": "Murdoch",
+                    "given": "Michele E."
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Vlas",
+                    "given": "Sake J."
+                },
+                {
+                    "family": "Coffeng",
+                    "given": "Luc E."
+                }
+            ],
+            "container-title": "PLOS Neglected Tropical Diseases",
+            "id": "melchers2021",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        7,
+                        26
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: Public Library of Science",
+            "page": "e0009604",
+            "title": "The burden of skin disease and eye disease due to onchocerciasis in countries formerly under the African Programme for Onchocerciasis Control mandate for 1990, 2020, and 2030",
+            "type": "article-journal",
+            "volume": "15"
+        }
+    ],
+    "project_biblios": []
+}
