@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-library(terra)
-=======
->>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
 library(texPreview)
 library(stringdist)
 library(readxl)
@@ -12,12 +8,13 @@ library(sf)
 library(leaflet)
 library(rnaturalearth)
 library(rnaturalearthdata)
-require(rgdal)
-library (tidyverse)
-library(gmapsdistance)
-library(readxl)
+library(rgdal)
 library(tidyverse)
+library(gmapsdistance)
 library(flextable)
+library(terra)
+#install.packages('terra', repos='https://rspatial.r-universe.dev')
+#install.packages("texPreview")
 
 hf <- read.csv("GL LR SL Health Care System Public - Liberia Health Facilities.csv", comment.char="#")
 
@@ -29,10 +26,6 @@ hf<- hf %>% filter(Region %in%  st1 | Region %in%  st2 | Region=="Grand Gedeh")
 
 Sampling_frame <- read_excel("Sampling frame draft_13.12.2021_From Colleen.xlsx")
 
-<<<<<<< HEAD
-=======
-
->>>>>>> feffdc45b0a27b943fc399e073eeb2f84f45d304
 # To make sure we are dealing with charts
 hf$Center<-as.character(hf$Center)
 
